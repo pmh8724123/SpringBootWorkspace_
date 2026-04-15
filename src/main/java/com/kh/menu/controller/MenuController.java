@@ -85,7 +85,7 @@ public class MenuController {
 		List<Menu> list = menuService.selectMenus(param);
 		
 		log.debug("list {} ", list);
-		
+		// 히히 테스트
 		return ResponseEntity.ok(list);
 	}
 	
